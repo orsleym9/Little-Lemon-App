@@ -1,4 +1,5 @@
 import logo from "./assets/Logo.svg"
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return(
@@ -9,12 +10,12 @@ function Footer() {
             <div className="navigation">
                 <p className="footerTitle">Doormat <br></br> Navigation</p>
                 <ul className="navigationList">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Menu</li>
-                    <li>Reservations</li>
-                    <li>Order Online</li>
-                    <li>Login</li>
+                    <Link to="/"><li>Home</li></Link>
+                    <Link to="/about"><li>About</li></Link>
+                    <Link to="/menu"><li>Menu</li></Link>
+                    <Link to="/reservations"><li>Reservations</li></Link>
+                    <Link to="/menu"><li>Order Online</li></Link>
+                    <Link to="/"><li>Login</li></Link>
                 </ul>
             </div>
             <div className="contact">

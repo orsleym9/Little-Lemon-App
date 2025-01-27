@@ -74,6 +74,7 @@
   font-size: 20px;
   color: #333333;
   border-radius: 3px;
+  cursor: pointer;
 }
 .heroImage {
   padding-top: 30px;
@@ -104,6 +105,7 @@
   color: #333333;
   border-radius: 3px;
   overflow-wrap: break-word;
+  cursor: pointer;
 }
 
 .menuItems {
@@ -263,7 +265,12 @@
   padding-right: 20px;
   padding-left: 20px;
   font-family: "Karla";
+  text-decoration: none;
 
+}
+.navigationList a{
+  text-decoration: none;
+  color: inherit;
 }
 
 .navigationList, .contactList, .socialMediaList {
@@ -280,4 +287,59 @@
 .footer img{
   width:200px;
   padding-right: 30px;
+}
+
+.bookingPage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbdabb;
+
+}
+
+.bookingPage h1{
+  color: #333333;
+  font-family: "Markazi Text";
+  padding-top: 30px;
+  font-size: 38px;
+}
+
+.reservationForm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  font-family: "Karla";
+  font-size: 20px;
+  padding-bottom: 90px;
+  padding-top: 30px;
+}
+
+.errorMessage {
+  color: red;
+  font-family: "Karla";
+  margin: auto;
+}
+
+.confirmPage {
+  background-color: #f4c14f;
+  text-align: center;
+  color: #333333;
+  font-family: "Karla";
+}
+
+.confirmPage h2 {
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.confirmMessage1{
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.confirmMessage2 {
+  margin-bottom: 0px;
+  padding-bottom: 20px;
 }
