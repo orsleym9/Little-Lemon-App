@@ -22,7 +22,7 @@ function Main() {
   }, []);
 
   const initializeTimes = async (date) => {
-    const availableTimes = await fetchAPI(date);
+    const availableTimes = fetchAPI(date);
     setAvailableTimes(availableTimes);
   };
 
